@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 
 type Props = {
-    category:string,
+    category:String,
     isActive: boolean
 }
 

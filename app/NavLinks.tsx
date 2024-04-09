@@ -8,7 +8,7 @@ function NavLinks() {
 
   const pathname = usePathname()
 
-  const isActive = (path:string) => {
+  const isActive = (path:String) => {
     return pathname?.split('/').pop() === path;
   }
 

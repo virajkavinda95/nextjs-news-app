@@ -1,15 +1,15 @@
 
 type Article = {
-    author: string | null;
-    category: string;
-    country:string;
-    description:string;
-    image:string|null;
-    language:string;
-    published_at:string;
-    source:string;
-    title:string;
-    url:string;
+    author: String | null;
+    category: String;
+    country:String;
+    description:String;
+    image:String|null;
+    language:String;
+    published_at:String;
+    source:String;
+    title:String;
+    url:String;
 }
 
 type Pagination = {
