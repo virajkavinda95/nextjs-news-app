@@ -2,8 +2,8 @@ import { gql } from "graphql-request"
 import getNewsByImage from "./sortNewsByImage";
 
 const fetchNews = async (
-    category?: Category | string,
-    keywords?: string,
+    category?: Category | String,
+    keywords?: String,
     isDynamic?: boolean
 ) => {
 
